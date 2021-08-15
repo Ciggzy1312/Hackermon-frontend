@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Source Sans Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    background-color: rgb(31, 74, 216);
+}
+
+.header{
+    margin: 30px;
+    text-align: center;
+    color: white;
+}
+
+.header img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 25px;
+}
+
+.header h1{
+    padding: 10px;
+    font-size: 4rem;
+}
+
+.desc{
+    padding: 10px;
+}
+
+.desc h2{
+    padding: 10px;
+}
+
+.desc div{
+    padding: 10px;
+}
+
+.btn{
+    padding: 10px;
+    background-color: white;
+    color: rgb(57, 99, 240);
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.section-1{
+    text-align: center;
+    margin: 0px;
+    padding: 85px 50px;
+    color: rgb(57, 99, 240);
+    background-color: white;
+    min-height: 300px;
+}
+
+.section-1 h2{
+    font-size: 2rem;
+    padding: 20px 0px;
+}
+
+.section-1 p{
+    margin: auto;
+    max-width: 800px;
+}
+
+.commands{
+    margin: 30px;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+}
+
+.commands h2{
+    font-size: 2rem;
+}
+
+.command{
+    border: 3px white solid;
+    border-radius: 6px;
+    padding: 15px;
+    margin: 10px;
+}
+
+.com{
+    padding: 10px 0px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    max-width: 800px;
+}
+
+.com h4{
+    font-size: 1.2rem;
+}
+
+.footer{
+    text-align: center;
+    margin: 0px;
+    padding: 10px 50px;
+    color: rgb(57, 99, 240);
+    background-color: white;
+    min-height: 150px;
+}
+
+.footer h2{
+    font-size: 2rem;
+    padding: 10px;
+}
+
+.footer ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.footer ul li{
+    font-size: 1.8rem;
+    padding: 10px 20px;
+}
+
+.footer ul a{
+    text-decoration: none;
+}
+
+a:-webkit-any-link {
+    color: rgb(31, 74, 216);
+    cursor: pointer;
+}
